@@ -1,0 +1,233 @@
+/* Universal Styles  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    letter-spacing: 1px;
+}
+
+nav a:first-of-type {
+    background-color: #2B9720;
+    color: #f5f5f5;
+    border-radius: 30px;
+}
+
+/*Emergency Styles*/
+
+.emergency {
+    margin-top: 1%;
+    background: url("assets/Group_126-2.png");
+    background-repeat: no-repeat;
+    width: auto;
+    padding: 4%;
+}
+
+.emergency-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.emergency-wrap {
+    display: flex;
+}
+
+.emergency-wrap .img-wrap{
+    width: 70%;
+}
+
+.emergency-list {
+    text-align: center;
+    background-color: #f5f5f5;
+    margin-left: -5%;
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.2);  
+    margin-top: -2%;
+}
+
+.emergency-list h2 {
+    color: #2B9720;
+    font-size: 2rem;
+}
+
+.emergency-list img {
+    cursor: pointer;
+}
+
+.grid-wrap{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    margin-top: 8%;
+}
+
+.emergency-text {
+    text-align: center;
+}
+
+.emergency-text h2 {
+    color: #f5f5f5;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+.location-btn{
+    color: #2B9720;
+    background-color: #f5f5f5;
+    border-radius: 30px;
+    padding: 1%;
+    text-decoration: none;
+}   
+
+/* Hospital List Styles */
+
+.hospital {
+    background-color: #009731;
+}
+
+.hospital-container{
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 4% 0;
+}
+
+.hospital-item {
+    display: flex;
+    grid-template-columns: 2;
+    margin: 5%;
+    background-color: #f5f5f5;
+    color: #2B9720;
+    padding: 5%;
+}
+
+.hospital-item img {
+    margin: 0 4%;
+}
+
+.hospital-item .blah {
+    width: 50%;
+}
+
+.item-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.item-content .buttons a{    
+    color: #f5f5f5;
+    background-color: #009731;
+    border-radius: 30px;
+    padding: 1% 4%;
+    text-decoration: none; 
+    margin: 30px 2%;
+}
+.location-btn:hover{
+    background-color: darkgreen;
+    color: white;
+}
+.ab:hover{
+    color: white;
+    background-color: darkgreen;
+}
+.abb:hover{
+    background-color: lightgreen;
+    color: black;
+}
+
+/* Covid Section Styles */
+
+.covid{
+    background: url("assets/Group_127.png");
+    background-repeat: no-repeat;
+    width: auto;
+}
+
+.covid-container {
+    width: 80%;
+    margin: 8% auto;
+}
+
+.covid-info h2{
+    color: #2B9720;
+    font-size: 3rem;
+    margin: 3%;
+}
+
+.info-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.info-text p{
+    color: #f5f5f5;
+    background-color: #009731;
+    border-radius: 20px;
+    padding: 10%;
+    margin: 3%;
+    font-size: 2rem;
+    box-shadow: 5px 5px 15px 3px rgba(0, 0, 0, 0.3);  
+}
+
+.info-text a{
+    display: block;
+    color: #2B9720;
+    background-color: #f5f5f5;
+    margin-top: 6%;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.donation {
+    background: url("assets/Group_donate.png");
+    background-repeat: no-repeat;    
+    width: auto;
+}
+
+.covid-donations {
+    width: 90%;
+    margin: 0 auto;
+    padding: 5%;
+    padding-bottom: 7%;
+}
+
+.covid-donations h2{
+    color: #2B9720;
+    font-size: 3rem;
+}
+
+.donate-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 8%;
+}
+
+.donate-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: #f5f5f5;
+    padding: 8%;
+    margin: 0 3%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.2);  
+}
+
+.donate-item .blah2{
+    height: 85%;
+}
+
+.donate-item a {
+    color: #f5f5f5;
+    background-color: #009731;
+    border-radius: 30px;
+    padding: 1%;
+    text-decoration: none;
+    margin: 2% 20% 0 20%;
+}
+

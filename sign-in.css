@@ -1,0 +1,97 @@
+/* Universal Styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    letter-spacing: 1px;
+    background: url("assets/group_1.png");
+    background-repeat: no-repeat;
+    width: auto;
+}
+
+nav a:last-of-type {
+    background-color: #2B9720;
+    color: #f5f5f5;
+    border-radius: 30px;
+}
+
+/* Styles */
+
+.container-sign-in {
+    width: 40%;
+    padding: 2%;
+    margin: 3% auto;
+    background-color: #f5f5f5;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.2);  
+    height: 80%;
+}
+
+.text {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text h2 a, .text h2 {
+    margin: 5px;
+    text-decoration: none;
+    color: #2B9720;
+}
+
+.line {
+    background-color: #2B9720;
+    height: 3px;
+    width: 100%;
+    display: block; 
+    margin: 5px 0;
+}
+
+input {
+    display: block;
+    padding: 1.5%;
+    border: none;
+    background-color: #f5f5f5;
+    border-bottom: 3px solid #2B9720;
+    width: 80%;
+    margin: 30px;
+    margin-left: 10%;
+    font-size: 1rem;
+    letter-spacing: 1.2px;
+}
+
+input:last-of-type {
+    margin-bottom: 9%;
+}
+
+.sign-in-btn {
+    text-decoration: none;
+    background-color: #2B9720;
+    color: #f5f5f5;
+    padding: 3%;
+    text-transform: uppercase;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.container-sign-in p{
+    margin-top: 7%;
+}
+
+.container-sign-in p a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #2B9720;
+}
+
+.container-sign-in p a:hover {
+    text-decoration: underline;
+}
+.sign-in-btn:hover{
+    background-color: lightgreen;
+    color: darkgreen;
+}
